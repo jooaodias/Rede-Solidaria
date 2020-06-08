@@ -9,12 +9,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1 className="Title">Rede Solidária IFSP - Campinas</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Sobre a arrecadação</Link> 
+    <Link to="/sobre/">Sobre a arrecadação</Link> 
   </Layout>
 )
 
