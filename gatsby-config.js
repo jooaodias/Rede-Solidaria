@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Rede Solidária`,
+    description: `Site com informações sobre doações de alimentos e dinheiro para ajudarmos famílias com vulnerabilidades sociais`,
     author: `@gatsbyjs`,
   },
   plugins: [
