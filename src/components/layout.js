@@ -7,11 +7,12 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import Footer from './footer'
 import "./Layout.css"
+import '../pages/index.css';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -34,7 +35,13 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
+        <main>
+          {children}
+          <Link to="/" className="classe2">Tela Inicial</Link>{' – '}
+          <Link to="/sobre" className="classe2">Sobre a Arrecadação</Link>{' – '}
+          <Link to="/vaquinha" className="classe2">Vaquinha</Link>{' – '}
+          <Link to="/mobilizadores" className="classe2">Mobilizadores</Link>
+        </main>
         
       </div>
       <Footer />

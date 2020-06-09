@@ -1,0 +1,12 @@
+.Contato{
+    border: solid black 1px;
+    max-width: 300px;
+    position: static;
+    margin-bottom: 15px;
+}
+.Name{
+    margin-top: 8px;
+}
+.Cargo{
+    margin-bottom: 8px;
+}
