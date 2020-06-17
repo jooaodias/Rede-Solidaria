@@ -21,26 +21,42 @@ const mobilizadores = (props) => {
                         <p>Estamos com a nossa Vakinha online e para doar alimentos <b>entre em contato conosco</b> que faremos a logística para arrecadarmos os alimentos. Os contatos de alguns mobilizadores estão abaixo:</p>
                     </Col>
                 </Row>
-                <Row>
-                    <Col sm={{ size: 'auto', offset: 1 }}>
-                        <Contato
-                            name={"João Vitor"}
-                            telefone={"(99)99999999"}
-                            cargo={"Estudante"}
-                        />
-                    </Col>
-                    <Col sm={{ size: 'auto', offset: 1 }}>
-                        <Contato
-                            name={"João Vitor"}
-                            telefone={"(99)99999999"}
-                            cargo={"Estudante"}
-                        />
-                    </Col>
-                </Row>
+                <Col>
+                    <div className="mapa">
+                        <iframe
+                            src="https://www.google.com/maps/d/u/0/embed?mid=1keq-opQat7wc_Ys61bS4KtgGmnrGSXT9"
+                            width="640"
+                            height="480"
+                            className="mapa"
+                        ></iframe>
+                    </div>
 
+                </Col>
+
+
+                <Container>
+                    <Row>
+                        <Contato
+                            name={"João Vitor"}
+                            telefone={"(99) 99999999"}
+                            cargo={"Estudante"}
+                        />
+                        <Contato
+                            name={"João Vitor"}
+                            telefone={"(99) 99999999"}
+                            cargo={"Estudante"}
+                        />
+                        <Contato
+                            name={"João Vitor"}
+                            telefone={"(99) 99999999"}
+                            cargo={"Estudante"}
+                        />
+                    </Row>
+                </Container>
             </Container>
         </Layout>
     )
 }
 
-export default mobilizadores
+export default mobilizadores;
+

@@ -1,8 +1,12 @@
 .Contato{
     border: solid black 1px;
     max-width: 300px;
-    position: static;
     margin-bottom: 15px;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
 }
 .Name{
     margin-top: 8px;
