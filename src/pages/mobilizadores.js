@@ -30,29 +30,36 @@ const mobilizadores = (props) => {
                             className="mapa"
                         ></iframe>
                     </div>
-
                 </Col>
 
-
-                <Container>
+                <Container >
                     <Row>
-                        <Contato
-                            name={"João Vitor"}
-                            telefone={"(99) 99999999"}
-                            cargo={"Estudante"}
-                        />
-                        <Contato
-                            name={"João Vitor"}
-                            telefone={"(99) 99999999"}
-                            cargo={"Estudante"}
-                        />
-                        <Contato
-                            name={"João Vitor"}
-                            telefone={"(99) 99999999"}
-                            cargo={"Estudante"}
-                        />
+                        <Col style={{display: 'inline-block'}}>
+                            <Contato
+                                name={"João Vitor"}
+                                telefone={"(99) 99999999"}
+                                cargo={"Estudante"}
+                            />
+                        </Col>
+                        <Col style={{display: 'inline-block'}}>
+                            <Contato
+                                name={"João Vitor"}
+                                telefone={"(99) 99999999"}
+                                cargo={"Estudante"}
+                            />
+                        </Col>
+                        <Col  style={{display: 'inline-block'}}>
+                            <Contato
+                                name={"João Vitor"}
+                                telefone={"(99) 99999999"}
+                                cargo={"Estudante"}
+                            />
+                        </Col>
+
+
                     </Row>
                 </Container>
+
             </Container>
         </Layout>
     )
